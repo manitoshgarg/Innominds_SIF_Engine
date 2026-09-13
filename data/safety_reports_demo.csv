@@ -1,0 +1,101 @@
+report_id,report_text,sif_label,activity,hazard,location,barrier_failure,life_saving_rule
+1,Observation: The welding area was inspected and combustible materials were removed before work.,0,Hot Work,Fire prevention,Workshop,Area preparation completed,Hot Work
+2,Observation: A supervisor completed the pre-job safety briefing before routine maintenance.,0,Maintenance,Routine task,Process Area,Pre-job briefing completed,General Safety
+3,The electrical isolation checklist was completed before scheduled panel maintenance.,0,Electrical Maintenance,Electrical energy,Substation,Isolation checklist completed,Energy Isolation
+4,Observation: Hot work was conducted inside a poorly ventilated area with combustible vapours present.,1,Hot Work,Fire / explosion,Workshop,Ventilation and gas monitoring inadequate,Hot Work
+5,Hot work was conducted inside a poorly ventilated area with combustible vapours present.,1,Hot Work,Fire / explosion,Workshop,Ventilation and gas monitoring inadequate,Hot Work
+6,Observation: A worker climbed onto a platform without attaching fall protection.,1,Work at Height,Fall from height,Process Area,Fall-arrest system not used,Working at Height
+7,A worker positioned himself between a moving vehicle and a fixed structure.,1,Vehicle Operation,Crush injury,Loading Area,Line-of-fire and vehicle separation failed,Line of Fire
+8,A confined-space permit was reviewed and all required checks were recorded before entry.,0,Confined Space,Planned entry,Vessel Area,Permit and atmospheric checks completed,Confined Space
+9,A contractor worked at height without connecting the fall-arrest lanyard.,1,Work at Height,Fall from height,Maintenance Area,Fall protection was not connected,Working at Height
+10,Worker entered a confined space without atmospheric testing or a valid entry permit.,1,Maintenance,Toxic atmosphere / oxygen deficiency,Process Area,Atmospheric testing and permit control absent,Confined Space
+11,Grinding was performed beside combustible material without adequate fire controls.,1,Hot Work,Fire,Workshop,Combustible-material control and fire watch inadequate,Hot Work
+12,Welding was started without checking for flammable vapours in the area.,1,Hot Work,Fire / explosion,Process Area,Pre-work gas testing failed,Hot Work
+13,Observation: A trained fire watch was assigned during approved welding work.,0,Hot Work,Hot work,Workshop,Fire watch and permit controls in place,Hot Work
+14,Observation: A load shifted unexpectedly while workers were guiding it by hand.,1,Lifting,Struck-by / crush,Warehouse,Load control and exclusion zone inadequate,Lifting Operations
+15,The spotter guided a vehicle safely into the designated parking area.,0,Vehicle Operation,Vehicle movement,Plant Road,Spotter and controlled movement used,Driving
+16,A worker removed a valve without isolating and depressurizing the line.,1,Maintenance,Unexpected energy release,Process Unit,Energy isolation and depressurization not verified,Energy Isolation
+17,The operator stopped the vehicle at the marked pedestrian crossing.,0,Vehicle Operation,Traffic interaction,Plant Road,Traffic rules followed,Driving
+18,Observation: The operator stopped the vehicle at the marked pedestrian crossing.,0,Vehicle Operation,Traffic interaction,Plant Road,Traffic rules followed,Driving
+19,A vehicle reversed close to pedestrians without a spotter or controlled exclusion area.,1,Vehicle Operation,Vehicle-pedestrian collision,Plant Road,Pedestrian segregation and reversing control failed,Driving
+20,Observation: Welding was started without checking for flammable vapours in the area.,1,Hot Work,Fire / explosion,Process Area,Pre-work gas testing failed,Hot Work
+21,Observation: Housekeeping was completed and the walkway was clear of materials.,0,Housekeeping,Trip hazard,Workshop,Walkway kept clear,General Safety
+22,The maintenance team verified zero energy before beginning scheduled work.,0,Maintenance,Stored energy,Process Unit,Zero-energy verification completed,Energy Isolation
+23,An electrical panel was opened without proving isolation before maintenance.,1,Electrical Maintenance,Electrical shock / arc flash,Substation,Isolation verification and test-before-touch failed,Energy Isolation
+24,A tank was opened for maintenance without confirming isolation from connected lines.,1,Maintenance,Unexpected chemical release,Tank Farm,Positive isolation not verified,Energy Isolation
+25,Observation: Gas detectors were calibrated and available before the planned maintenance shift.,0,Maintenance,Gas monitoring,Process Area,Gas detection readiness verified,Confined Space
+26,Observation: A pump was opened while residual pressure remained in the system.,1,Maintenance,Unexpected pressure release,Process Area,Isolation and zero-energy verification failed,Energy Isolation
+27,A hose under pressure disconnected and moved toward nearby workers.,1,Maintenance,Stored-energy release,Process Area,Pressure isolation and hose restraint failed,Line of Fire
+28,The operator followed the approved procedure while opening a low-pressure service valve.,0,Operations,Routine valve operation,Process Area,Procedure followed,General Safety
+29,Observation: A worker entered the line of fire while equipment was being pressure tested.,1,Pressure Testing,Stored pressure / struck-by,Process Unit,Line-of-fire control and exclusion zone failed,Line of Fire
+30,A trained fire watch was assigned during approved welding work.,0,Hot Work,Hot work,Workshop,Fire watch and permit controls in place,Hot Work
+31,Observation: A contractor worked at height without connecting the fall-arrest lanyard.,1,Work at Height,Fall from height,Maintenance Area,Fall protection was not connected,Working at Height
+32,Observation: A worker walked inside the barricaded area below an active lifting operation.,1,Lifting,Dropped load,Construction Area,Barricade and exclusion-zone control failed,Lifting Operations
+33,Observation: The load was kept within the marked lifting zone during routine crane operation.,0,Lifting,Routine lifting,Warehouse,Load zone controlled,Lifting Operations
+34,A confined-space attendant was not present while a worker was inside the vessel.,1,Confined Space,Delayed emergency response,Tank Farm,Attendant and entry controls not maintained,Confined Space
+35,Observation: Workers used the approved access platform and inspected the guardrails before work.,0,Work at Height,Height access,Construction Area,Access and guardrails verified,Working at Height
+36,Observation: A worker removed a valve without isolating and depressurizing the line.,1,Maintenance,Unexpected energy release,Process Unit,Energy isolation and depressurization not verified,Energy Isolation
+37,The crane operator completed the routine pre-use inspection before lifting an empty pallet.,0,Lifting,Routine lifting,Warehouse,Pre-use inspection completed,Lifting Operations
+38,Observation: A worker used a ladder with three points of contact for a short low-level task.,0,Work at Height,Low-level access,Workshop,Safe ladder practice followed,Working at Height
+39,Observation: A worker reached into moving machinery while the machine was still energized.,1,Maintenance,Entanglement / crush,Workshop,Machine isolation and guarding failed,Energy Isolation
+40,A worker entered a vessel before confirming oxygen concentration was within the safe range.,1,Confined Space,Oxygen deficiency,Vessel Area,Atmospheric testing was not confirmed,Confined Space
+41,Observation: A worker stood directly in front of a pressurized flange during loosening.,1,Maintenance,Pressure release,Process Unit,Line-of-fire positioning was not controlled,Line of Fire
+42,A worker reached into moving machinery while the machine was still energized.,1,Maintenance,Entanglement / crush,Workshop,Machine isolation and guarding failed,Energy Isolation
+43,Observation: A suspended load passed over workers during crane lifting.,1,Lifting,Dropped load / struck-by,Warehouse,Exclusion zone and lifting control failed,Lifting Operations
+44,Observation: Pressure testing was performed behind the designated barrier with no personnel inside the zone.,0,Pressure Testing,Stored pressure,Process Unit,Exclusion zone maintained,Line of Fire
+45,Observation: An electrical panel was opened without proving isolation before maintenance.,1,Electrical Maintenance,Electrical shock / arc flash,Substation,Isolation verification and test-before-touch failed,Energy Isolation
+46,Observation: Grinding was performed beside combustible material without adequate fire controls.,1,Hot Work,Fire,Workshop,Combustible-material control and fire watch inadequate,Hot Work
+47,Observation: A confined-space permit was reviewed and all required checks were recorded before entry.,0,Confined Space,Planned entry,Vessel Area,Permit and atmospheric checks completed,Confined Space
+48,Observation: Scaffolding was used at height without complete guardrails and fall protection.,1,Work at Height,Fall from height,Construction Area,Guardrail and fall protection controls incomplete,Working at Height
+49,Fire extinguishers were inspected and found accessible during the monthly check.,0,Inspection,Fire protection,Workshop,Fire equipment available,General Safety
+50,Observation: A vehicle reversed close to pedestrians without a spotter or controlled exclusion area.,1,Vehicle Operation,Vehicle-pedestrian collision,Plant Road,Pedestrian segregation and reversing control failed,Driving
+51,Scaffolding was used at height without complete guardrails and fall protection.,1,Work at Height,Fall from height,Construction Area,Guardrail and fall protection controls incomplete,Working at Height
+52,Observation: A technician started hot work near hydrocarbon vapour without gas testing and continuous monitoring.,1,Hot Work,Fire / explosion,Tank Farm,Gas testing and continuous monitoring not performed,Hot Work
+53,Observation: A worker entered a vessel before confirming oxygen concentration was within the safe range.,1,Confined Space,Oxygen deficiency,Vessel Area,Atmospheric testing was not confirmed,Confined Space
+54,A worker climbed onto a platform without attaching fall protection.,1,Work at Height,Fall from height,Process Area,Fall-arrest system not used,Working at Height
+55,A worker entered the line of fire while equipment was being pressure tested.,1,Pressure Testing,Stored pressure / struck-by,Process Unit,Line-of-fire control and exclusion zone failed,Line of Fire
+56,Workers completed a toolbox talk before starting the planned task.,0,Maintenance,Routine task,Process Area,Toolbox talk completed,General Safety
+57,A suspended load passed over workers during crane lifting.,1,Lifting,Dropped load / struck-by,Warehouse,Exclusion zone and lifting control failed,Lifting Operations
+58,A worker used a ladder with three points of contact for a short low-level task.,0,Work at Height,Low-level access,Workshop,Safe ladder practice followed,Working at Height
+59,A worker crossed a vehicle route while a reversing truck had limited visibility.,1,Vehicle Operation,Vehicle-pedestrian collision,Plant Road,Traffic segregation and visibility controls inadequate,Driving
+60,Observation: The maintenance team verified zero energy before beginning scheduled work.,0,Maintenance,Stored energy,Process Unit,Zero-energy verification completed,Energy Isolation
+61,A technician inspected a pump using the approved checklist with guards in place.,0,Inspection,Routine equipment check,Process Area,Guarding and checklist controls effective,General Safety
+62,Observation: A pre-use inspection found the lifting sling in good condition before routine use.,0,Lifting,Equipment condition,Warehouse,Lifting gear inspected,Lifting Operations
+63,Housekeeping was completed and the walkway was clear of materials.,0,Housekeeping,Trip hazard,Workshop,Walkway kept clear,General Safety
+64,Observation: A tank was opened for maintenance without confirming isolation from connected lines.,1,Maintenance,Unexpected chemical release,Tank Farm,Positive isolation not verified,Energy Isolation
+65,"Worker wore required helmet, gloves and eye protection during routine inspection.",0,Inspection,Routine exposure,Workshop,Required PPE verified,General Safety
+66,Observation: The crane operator completed the routine pre-use inspection before lifting an empty pallet.,0,Lifting,Routine lifting,Warehouse,Pre-use inspection completed,Lifting Operations
+67,A worker walked inside the barricaded area below an active lifting operation.,1,Lifting,Dropped load,Construction Area,Barricade and exclusion-zone control failed,Lifting Operations
+68,Gas detectors were calibrated and available before the planned maintenance shift.,0,Maintenance,Gas monitoring,Process Area,Gas detection readiness verified,Confined Space
+69,Observation: The team verified the work permit before starting routine maintenance.,0,Maintenance,Permit compliance,Process Area,Permit verified,General Safety
+70,Observation: The operator followed the approved procedure while opening a low-pressure service valve.,0,Operations,Routine valve operation,Process Area,Procedure followed,General Safety
+71,Observation: Workers completed a toolbox talk before starting the planned task.,0,Maintenance,Routine task,Process Area,Toolbox talk completed,General Safety
+72,Observation: A hose under pressure disconnected and moved toward nearby workers.,1,Maintenance,Stored-energy release,Process Area,Pressure isolation and hose restraint failed,Line of Fire
+73,Workers used designated pedestrian walkways while moving between buildings.,0,Walking,Vehicle interaction,Plant Road,Pedestrian segregation followed,Driving
+74,A worker stood directly in front of a pressurized flange during loosening.,1,Maintenance,Pressure release,Process Unit,Line-of-fire positioning was not controlled,Line of Fire
+75,A pre-use inspection found the lifting sling in good condition before routine use.,0,Lifting,Equipment condition,Warehouse,Lifting gear inspected,Lifting Operations
+76,Observation: A technician inspected a pump using the approved checklist with guards in place.,0,Inspection,Routine equipment check,Process Area,Guarding and checklist controls effective,General Safety
+77,Observation: The lifting area was barricaded before a routine equipment movement.,0,Lifting,Dropped object,Warehouse,Exclusion zone established,Lifting Operations
+78,A load shifted unexpectedly while workers were guiding it by hand.,1,Lifting,Struck-by / crush,Warehouse,Load control and exclusion zone inadequate,Lifting Operations
+79,Pressure testing was performed behind the designated barrier with no personnel inside the zone.,0,Pressure Testing,Stored pressure,Process Unit,Exclusion zone maintained,Line of Fire
+80,Observation: Workers used designated pedestrian walkways while moving between buildings.,0,Walking,Vehicle interaction,Plant Road,Pedestrian segregation followed,Driving
+81,Observation: Fire extinguishers were inspected and found accessible during the monthly check.,0,Inspection,Fire protection,Workshop,Fire equipment available,General Safety
+82,The load was kept within the marked lifting zone during routine crane operation.,0,Lifting,Routine lifting,Warehouse,Load zone controlled,Lifting Operations
+83,Observation: A worker crossed a vehicle route while a reversing truck had limited visibility.,1,Vehicle Operation,Vehicle-pedestrian collision,Plant Road,Traffic segregation and visibility controls inadequate,Driving
+84,Observation: A confined-space attendant was not present while a worker was inside the vessel.,1,Confined Space,Delayed emergency response,Tank Farm,Attendant and entry controls not maintained,Confined Space
+85,Observation: Worker entered a confined space without atmospheric testing or a valid entry permit.,1,Maintenance,Toxic atmosphere / oxygen deficiency,Process Area,Atmospheric testing and permit control absent,Confined Space
+86,A supervisor completed the pre-job safety briefing before routine maintenance.,0,Maintenance,Routine task,Process Area,Pre-job briefing completed,General Safety
+87,Observation: A worker stood beneath a suspended pipe bundle during lifting.,1,Lifting,Dropped object,Construction Area,Exclusion zone was breached,Lifting Operations
+88,A technician started hot work near hydrocarbon vapour without gas testing and continuous monitoring.,1,Hot Work,Fire / explosion,Tank Farm,Gas testing and continuous monitoring not performed,Hot Work
+89,Observation: A worker positioned himself between a moving vehicle and a fixed structure.,1,Vehicle Operation,Crush injury,Loading Area,Line-of-fire and vehicle separation failed,Line of Fire
+90,Observation: A machine guard was checked before the operator started the equipment.,0,Operations,Moving machinery,Workshop,Guarding verified,General Safety
+91,Observation: The spotter guided a vehicle safely into the designated parking area.,0,Vehicle Operation,Vehicle movement,Plant Road,Spotter and controlled movement used,Driving
+92,The lifting area was barricaded before a routine equipment movement.,0,Lifting,Dropped object,Warehouse,Exclusion zone established,Lifting Operations
+93,A machine guard was checked before the operator started the equipment.,0,Operations,Moving machinery,Workshop,Guarding verified,General Safety
+94,The welding area was inspected and combustible materials were removed before work.,0,Hot Work,Fire prevention,Workshop,Area preparation completed,Hot Work
+95,A worker stood beneath a suspended pipe bundle during lifting.,1,Lifting,Dropped object,Construction Area,Exclusion zone was breached,Lifting Operations
+96,The team verified the work permit before starting routine maintenance.,0,Maintenance,Permit compliance,Process Area,Permit verified,General Safety
+97,Observation: The electrical isolation checklist was completed before scheduled panel maintenance.,0,Electrical Maintenance,Electrical energy,Substation,Isolation checklist completed,Energy Isolation
+98,A pump was opened while residual pressure remained in the system.,1,Maintenance,Unexpected pressure release,Process Area,Isolation and zero-energy verification failed,Energy Isolation
+99,Workers used the approved access platform and inspected the guardrails before work.,0,Work at Height,Height access,Construction Area,Access and guardrails verified,Working at Height
+100,"Observation: Worker wore required helmet, gloves and eye protection during routine inspection.",0,Inspection,Routine exposure,Workshop,Required PPE verified,General Safety
