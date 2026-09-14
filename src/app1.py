@@ -294,7 +294,12 @@ with tab1:
 
             sif_label = sif["label"]
 
-            score = sif["confidence"]
+            score = float(sif.get("confidence", sif.get("safety_score", 0.0)))
+            safety_score = float(sif.get("safety_score", score))
+            sif_priority = sif.get("priority", "LOW")
+            sif_reasons = sif.get("reasons", [])
+            sif_indicators = sif.get("indicators", [])
+            override_applied = sif.get("override_applied", False)
 
 
             if sif_label == "SIF-POTENTIAL":
@@ -318,7 +323,7 @@ with tab1:
 
                 top_rule = rules[0]["rule"]
 
-                top_similarity = rules[0]["similarity"]
+                top_similarity = rules[0].get("score", 0.0)
 
             else:
 
@@ -391,9 +396,10 @@ with tab1:
             with col2:
 
                 st.metric(
-                    "SIF Model Score",
-                    f"{score * 100:.1f}%"
+                    "SIF Safety Score",
+                    f"{safety_score * 100:.1f}%"
                 )
+                st.caption(f"ML score: {score * 100:.1f}%")
 
             with col3:
 
@@ -402,6 +408,31 @@ with tab1:
                     result["event_count"]
                 )
 
+
+            # =================================================
+            # SIF DECISION BASIS
+            # =================================================
+
+            if sif_reasons or sif_indicators:
+                st.write("**Why this report was flagged:**")
+                for reason in sif_reasons:
+                    st.write(f"• {reason}")
+                if sif_indicators:
+                    indicator_names = []
+                    for indicator in sif_indicators:
+                        if isinstance(indicator, dict):
+                            indicator_names.append(
+                                str(indicator.get("name") or indicator.get("indicator") or indicator.get("type") or "Critical safety indicator")
+                            )
+                        else:
+                            indicator_names.append(str(indicator))
+                    st.caption(
+                        "Critical indicators: " + ", ".join(indicator_names)
+                    )
+                if override_applied:
+                    st.caption(
+                        "Safety-indicator override applied for critical high-energy exposure."
+                    )
 
             # =================================================
             # LIFE-SAVING RULE
@@ -430,8 +461,8 @@ with tab1:
             with rule_col2:
 
                 st.metric(
-                    "Semantic Similarity",
-                    f"{top_similarity:.3f}"
+                    "Rule Match",
+                    rules[0].get("match_strength", "Supporting")
                 )
 
 
@@ -446,8 +477,10 @@ with tab1:
 
                 st.write(
                     f"{rank}. **{rule['rule']}** — "
-                    f"similarity: "
-                    f"{rule['similarity']:.3f}"
+                    f"**{rule.get('match_strength', 'Supporting')}**"
+                )
+                st.caption(
+                    rule.get("match_type", "Semantic match")
                 )
 
 
