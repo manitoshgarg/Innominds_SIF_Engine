@@ -226,7 +226,7 @@ def detect_sif_indicators(report_text):
     # --------------------------------------------------------
 
     vehicle = re.search(
-        r"(forklift|vehicle|truck|car|loader|crane|"
+        r"(forklift|vehicle|truck|car|loader|"
         r"mobile\s+equipment|reversing|backing)",
         text
     )

@@ -392,18 +392,36 @@ def map_life_saving_rule(report_text, top_k=3):
         report_text
     )
 
+        # Get domain evidence for supporting rules
+    domain_scores, _ = domain_rule_scores(report_text)
+
     # --------------------------------------------------------
     # Build result
     # --------------------------------------------------------
 
     if primary_rule:
 
+        # Start with the domain-supported primary rule
         ordered_rules = [primary_rule]
 
-        for item in semantic_results:
+        # Add only rules that have actual domain evidence.
+        # This avoids irrelevant semantic matches such as
+        # "Confined Space" for a crane lifting report.
+        domain_candidates = sorted(
+            domain_scores.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
 
-            if item["rule"] != primary_rule:
-                ordered_rules.append(item["rule"])
+        for rule, domain_score in domain_candidates:
+
+            if rule == primary_rule:
+                continue
+
+            if domain_score <= 0:
+                continue
+
+            ordered_rules.append(rule)
 
             if len(ordered_rules) >= top_k:
                 break
@@ -428,7 +446,7 @@ def map_life_saving_rule(report_text, top_k=3):
 
             else:
 
-                match_type = "Semantic match"
+                match_type = "Domain evidence"
                 match_strength = "Supporting"
 
             results.append({
